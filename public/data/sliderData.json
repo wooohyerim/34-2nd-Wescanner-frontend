@@ -1,0 +1,34 @@
+{
+  "result": [
+    {
+      "id": 1,
+      "name": "도쿄",
+      "image_id": 1
+    },
+    {
+      "id": 2,
+      "name": "뉴욕",
+      "image_id": 2
+    },
+    {
+      "id": 3,
+      "name": "다낭",
+      "image_id": 3
+    },
+    {
+      "id": 4,
+      "name": "삿포로",
+      "image_id": 4
+    },
+    {
+      "id": 5,
+      "name": "호치민",
+      "image_id": 5
+    },
+    {
+      "id": 6,
+      "name": "후쿠오카",
+      "image_id": 6
+    }
+  ]
+}
