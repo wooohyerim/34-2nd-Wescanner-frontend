@@ -1,7 +1,8 @@
 import React from 'react';
+import HotelListFilter from './HotelListFilter/HotelListFilter';
 
 const List = () => {
-  return <div>list</div>;
+  return <HotelListFilter />;
 };
 
 export default List;
