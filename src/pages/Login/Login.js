@@ -24,7 +24,7 @@ const Login = () => {
   };
 
   const submit = () => {
-    fetch(`http://10.58.1.42:8000/users/email`, {
+    fetch(`http://10.58.1.133:8000/users/email`, {
       method: 'POST',
       body: JSON.stringify({
         email: emailInput,
@@ -53,12 +53,15 @@ const Login = () => {
     setChecked(arr);
   };
 
+  const goToMain = () => {
+    navigate('/');
+  };
   return (
     <div>
       <LoginWrapper>
         <Purple>
           <LoginImg src="./images/loginIcon.png" alt="login icon" />
-          <Close>x</Close>
+          <Close onClick={goToMain}>x</Close>
         </Purple>
         <LoginMainText>모든 여행 준비를 한번에</LoginMainText>
         <LoginText>
@@ -132,6 +135,7 @@ const LoginWrapper = styled.div`
   display: flex;
   justify-content: center;
   border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(62, 62, 62, 0.3);
 `;
 
 const Purple = styled.div`

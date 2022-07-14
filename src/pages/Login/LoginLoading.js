@@ -33,7 +33,7 @@ const LoginLoading = () => {
         .then(res => res.json())
         .then(res => {
           if (res)
-            fetch(`http://10.58.6.125:8000/users/kakao`, {
+            fetch(`http://10.58.1.133:8000/users/kakao`, {
               headers: {
                 'Content-Type': 'application/json',
                 Authorization: res.access_token,
@@ -54,7 +54,7 @@ const LoginLoading = () => {
     getToken();
   }, []);
 
-  return <div>loginLoading</div>;
+  return <div>Loading...</div>;
 };
 
 export default LoginLoading;
