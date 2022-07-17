@@ -44,6 +44,13 @@
 ### 2. 메인 페이지
 
 ### 3. 리스트 페이지
+![list](https://user-images.githubusercontent.com/98519119/179382776-b3d6b995-e41c-49b3-9dc2-b32dd0569a2f.gif)
+
+- 페이지 레이아웃 구성
+- 체크 시 조건에 맞는 리스트 나타나도록 필터링 구현
+- 버튼 toggle 기능을 사용해 박스 숨기는 기능 구현
+- 구글 API를 이용해 지도 불러오기
+
 
 ### 4. Nav, footer
 
